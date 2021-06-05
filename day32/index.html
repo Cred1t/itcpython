@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='style.css'>
+    <title>Добавление</title>
+</head>
+<body>
+    <div class='form_post_add'>
+        <form action=''>
+        <fieldset>
+            <legend>Форма добавление статьи</legend>
+            <label for='title'>Заголовок</label><br>
+            <input type='text' name='title' id='title'><br>
+
+            <label for='content'>Содержимое</label><br>
+            <textarea name='content' id='content' cols='30' rows='10'></textarea><br>
+            <input type='checkbox' name='visible' id='visible'>
+            <label for='visible'>Видимость</label><br>
+
+            <label for='visible'>Выберите категорию: </label>
+            <select name='post_category' id='post_category'>
+                <option value='economic'>Экономика</option>
+                <option value='catastroph'>Катастрофы</option>
+                <option value='programming'>Программирование</option>
+
+                <optgroup label='Новости по Кыргызстану'>
+                    <option value='osh'>Ош</option>
+                    <option value='bishkek'>Бишкек</option>
+                </optgroup>
+
+                <optgroup label='О Биткойн'>
+                    <option value='btc'>Биткойн</option>
+                    <option value='eth'>Эфириум</option>
+                </optgroup>
+            </select>
+
+            <button type='sumbit'Сохранить></button>
+        </fieldset>
+        </form> 
+    </div>
+</body>
+</html>

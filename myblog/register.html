@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="kg">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.0.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Myblog Register</title>
+</head>
+<body>
+    <div class="content-login">
+        <h2>
+            <img src="image/py.jpg"
+                class="login-image"
+                width="96px"
+            >
+        </h2>
+        <h2>
+            Форма Регистрации
+        </h2>
+        <form action="/register" method="post">
+            <input 
+                type="text" 
+                placeholder="Ваше имя" 
+                name="name"
+                id="name"
+                class="form-control form-control-lg">
+            <br>
+            <input 
+                type="text" 
+                placeholder="Введите почту" 
+                name="email"
+                id="email"
+                class="form-control form-control-lg">
+            <br>
+            <input
+                type="text" 
+                placeholder="Придумайте пароль"
+                name="password"
+                id="password"
+                class="form-control form-control-lg">
+            <br>
+            <button
+                class="btn btn-danger btn-lg">
+                Зарегистрироваться
+            </button>
+        </form>
+
+        <h5 class="copyright">&copy; Zalkar Copyright 2021</h5>
+    </div>
+</body>
+</html>

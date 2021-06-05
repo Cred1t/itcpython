@@ -1,0 +1,17 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "192.168.0.9",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "bootcamp",
+            "database": "sakila",
+            "username": "root",
+            "password": ""
+        }
+    ]
+}

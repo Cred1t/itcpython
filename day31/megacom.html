@@ -1,0 +1,95 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="frame.css">
+    <title>MegaCom-register.kg</title>
+
+    <style>
+        .col-md-6 {
+            margin-left: 20%;
+            margin-top: 80px;
+        }
+        img {
+            margin-left: 28%;
+            margin-bottom: 10px;
+            width: 300px;
+        }
+        button {
+            margin-left: 470px;
+        } 
+
+    </style>
+</head>
+<body>
+    <div class='col-md-6'>
+        <img src='re.png'>
+        <form action='/login'>
+            <input 
+                class='form-control'
+                name='login'
+                id='login'
+                type='text'
+                placeholder='Логин'
+            >
+            <br>
+            <input 
+                class='form-control'
+                name='login'
+                id='login'
+                type='login'
+                placeholder='Эл.Почта'
+            >
+            <br>
+            <input
+                class='form-control'
+                name='number'
+                id='number'
+                type='number'
+                placeholder='Номер'
+            >
+            <br>
+            <input
+                class='form-control'
+                name='password'
+                id='password'
+                type='password'
+                placeholder='Пароль'
+            >
+            <br>
+            <input
+                class='form-control'
+                name='password'
+                id='password'
+                type='password'
+                placeholder='Повторите пароль'
+            >
+            <div class='form_post_add'>
+                <form action=''>
+                    <input type='checkbox' name='visible' id='visible'>
+                    <label for='visible'>Вам есть 18</label><br>
+        
+                    <label for='visible'>Ввыберите пол: </label>
+                    <select name='post_category' id='post_category'>
+                        <option value='economic'>Мужской</option>
+                        <option value='catastroph'>Женский</option>
+                    </select>
+                </form> 
+            </div>
+
+        <div style="margin-top: 15px;">
+            <button
+                type="submit"
+                class="btn btn-primary"
+            >
+            <a  href='https://www.megacom.kg/'>Зарегистрироваться</a>
+            </button>
+        </div>
+    </div>
+</body>
+</html>

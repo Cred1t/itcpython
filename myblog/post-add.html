@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href="bootstrap-5.0.1-dist/css/bootstrap.min.css"/>
+    <link rel='stylesheet' href='style.css'>
+    <title>Myblog Post Add</title>
+</head>
+<body>
+    <div class="form_post_add">
+        <form action="">
+        <fieldset>
+            <legend>Форма добавления Статьи</legend>
+            <label for="title">Заголовок</label><br>
+            <input class="form-control" type="text" name="title" id="title" placeholder="Введите заголовок статьи"><br>
+            <label for="content">Содержимое</label><br>
+            <textarea class="form-control" name="content" id="content" cols="30" rows="10"></textarea><br>
+            <label class="form-check-label" for="visible">Видимость</label>
+            <input class="form-checkbox-input" type="checkbox" name="visible" id="visible"><br>
+            <label for="visible">Выберите категорию: </label>
+            <select class="form-select" name="post_category" id="post_category">
+                <option value="economic">Экономика</option>
+                <option value="catastroph">Катастрофы</option>
+                <option value="programming" selected="selected">Программирование</option>
+                <optgroup label="Новости по Кыргызстану">
+                    <option value="osh">Ош</option>
+                    <option value="bishkek">Бишкек</option>
+                </optgroup>
+                <optgroup label="О биткойн">
+                    <option value="btc">Биткойн</option>
+                    <option value="eth">Эфириум</option>
+                </optgroup>
+            </select><br>
+            <button class="btn btn-success" type="submit">Сохранить</button>
+            <br><br><br>
+        </fieldset>
+        </form>
+    </div>
+</body>
+</html>
