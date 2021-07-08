@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f3751ae0-8e96-4f15-8e22-83a2e898b18c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../decorator/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../decorator/.idea/decorator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../decorator/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../decorator/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../decorator/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../decorator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../django/myblog/.idea/myblog.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../django/myblog/blog/db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../django/myblog/blog/db_migrate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../django/myblog/blog/templates/db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../django/myblog/blog/templates/todo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../django/myblog/blog/templates/todo_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../django/myblog/blog/todos_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../django/myblog2/.idea/myblog2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tkinter/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tkinter/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tkinter/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tkinter/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tkinter/.idea/tkinter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tkinter/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tkinter/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sql/lab2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../sql/lab2.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1ucbCihJfCCJTWiH2B6DJellIWr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../weather_bot" />
+  </component>
+  <component name="RunManager">
+    <configuration name="botapp" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="telegram_bot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/botapp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f3751ae0-8e96-4f15-8e22-83a2e898b18c" name="Default Changelist" comment="" />
+      <created>1624967698582</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624967698582</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

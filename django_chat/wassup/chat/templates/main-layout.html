@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,
+          user-scalable=no,
+          initial-scale=1.0,
+          maximum-scale=1.0,
+          minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/static/bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/mystyle.css">
+    <script src="/static/bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+    <title>
+        {% block title %} default title {% endblock %}
+    </title>
+</head>
+<body>
+    {% include 'header.html' %}
+    <div class="app">
+        <div class="container-fluid" style="padding: 0">
+            <div class="row">
+                <div class="col-md-12">
+                    {% block content %}{% endblock %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/static/myscrip.js"></script>
+</body>
+</html>

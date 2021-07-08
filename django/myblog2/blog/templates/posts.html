@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/bootstrap-5.0.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <title>POSTS</title>
+</head>
+<body>
+    {% include 'header.html' %}
+    <div class="container posts-container">
+        <div class="row">
+            {% for post in posts_lists %}
+                <div class="col-md-4" style="margin-bottom: 15px;">
+                    <div class="card">
+                        <img src="{{ post.image.url }}" class="card-img-top post-image">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                              {{ post.title }}
+                            </h5>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                {{ post.published }}
+                            </h6>
+                            <p class="card-text">
+                              {{ post.short_content }}
+                            </p>
+                          <a href="/post/{{ post.id }}" class="btn btn-primary">
+                              Прочитать
+                          </a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% include 'footer.html' %}
+</body>
+</html>
+
+
+

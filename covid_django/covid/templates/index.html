@@ -1,0 +1,17 @@
+<h1>Static of Covid-19</h1>
+
+<form method="POST" action="/get-covid-stat/">
+
+    <input type="text" name="country_code" placeholder="Введите страну">
+
+    <button type="submit">GET INFO</button>
+
+</form>
+
+<h2>{{ country_code }} </h2>
+<h2>Подтвержденные:{{ confirmed }} </h2>
+<h2>Выздоровел:{{ recovered }} </h2>
+<h2>Умерло:{{ deaths }} </h2>
+<h2>Население:{{ population }} </h2>
+<h2>Пощадь:{{ sq_km_area }} </h2>
+<h2>Продолжительность жизни:{{ life_expectancy }} </h2>

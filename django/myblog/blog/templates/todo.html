@@ -1,0 +1,22 @@
+
+<div>
+    <form action="">
+        <input type="text" placeholder="Введите задачу">
+        <button typy="sumbit">Добавить</button>
+    </form>
+</div>
+
+<ul>
+    {% for todo in todos %}
+        {% if todo.completed == True %}
+            <li style="color: green;">
+                {{ todo.name }}<br>✅</br>
+                <b>{{ todo.completed }}</b>
+            </li>
+
+        {% endif %}
+
+    {% endfor %}
+</ul>
+
+

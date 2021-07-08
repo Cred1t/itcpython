@@ -1,0 +1,9 @@
+<h1>Прогноз погоды ONLINE: </h1>
+<form action="/get_weather-online/" method="POST">
+    <input type="text" name="city_input" placeholder="Введите гоород">
+    <input type="text" name="state_input" placeholder="Введите страну">
+    <button>Получить</button> 
+<form>
+
+<p>Температура: {{ temparature }}</p>
+<p>Скорость ветра: {{ wind }}</p>

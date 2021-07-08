@@ -1,0 +1,2 @@
+
+https://api.openweathermap.org/data/2.5/weather?q=osh,kg&appid=fa0c69065a227aae0ae1081d5953bcfa&units=metric

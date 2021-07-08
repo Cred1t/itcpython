@@ -15,3 +15,4 @@
 
 SELECT * FROM customer
     WHERE customer_id BETWEEN 54 AND 60;
+

@@ -1,0 +1,40 @@
+body, html {
+    height: 100%;
+}
+
+.chat-container {
+    /* background-image: url("/static/image/fon.png"); */
+    height: 80vh;
+}
+.chat-message-parent {
+    margin-top: 20px;
+}
+
+.chat-message {
+    background-color: #DCF8C6;
+    border: 1px solid #ECE5DD;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.chat-message-time {
+    color: gray;
+}
+
+.chat-input-container {
+    position: absolute;
+    bottom: 0;
+}
+
+.chat-message-container {
+    height: 600px;
+    overflow-y: scroll;
+}
+
+
+.chat-author {
+    font-size: 22px;
+    font-style: italic;
+    color: green;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,36 @@
+
+<h1>Курс валют:</h1>
+<div>
+    <span style='color: black; font-weight:bold;'>
+        Доллар: {{ USD }}
+    </span><br>
+    <span style='color: black; font-weight:bold;'>
+        Евро: {{ EUR }}
+    </span><br>
+    <span style='color: black; font-weight:bold;'>
+        Рубль: {{ RUB }}
+    </span><br>
+</div>
+
+Введите сумму в рублях: <br>
+
+<form method='POST' action='/convert-usd/'>
+    <input 
+        type='number' 
+        placeholder='Сумма' 
+        value='0'
+        name='input_value'
+        >
+    <button>Конвертация</button>
+    {% csrf_token %}
+</form>
+
+<p>
+    Ваши деньги в формате USD:{{ converted_usd_result }}
+</p>
+<p>
+    Ваши деньги в формате RUB:{{ converted_rub_result }}
+</p>
+<p>
+    Ваши деньги в формате EUR:{{ converted_eur_result }}
+</p>

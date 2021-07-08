@@ -1,0 +1,72 @@
+.content-login {
+    text-align: center;
+    width: 380px;
+    margin: 50px auto;
+    background-color: rgb(211, 235, 211);
+    padding: 20px 40px;
+    border-radius: 15px;
+}
+
+.copyright {
+    margin-top: 50px;
+    color: lightslategray;
+}
+
+.login-image {
+    border-radius: 50%;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.text-white .nav-link {
+    color: white;
+}
+
+.bg-mygradient {
+    background: linear-gradient(
+        10deg, rgb(37, 72, 128) 
+        0%, rgb(90, 127, 175) 100%
+    );
+}
+
+.form_post_add {
+    margin-left: 50px;
+    width: 350px;
+}
+
+.img-profile {
+    border-radius: 50%;
+}
+
+.posts-container {
+    margin-top: 40px;
+}
+
+.post-image {
+    height: 200px;
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+footer div {
+    padding-top: 20px;
+    font-weight: bolder;
+}
+
+.post-one-image {
+    margin-left: 25%;
+    width: 450px;
+    height: 350px;
+}

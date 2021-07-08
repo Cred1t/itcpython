@@ -1,0 +1,49 @@
+{% extends 'main-layout.html' %}
+
+{% block title %}
+    Страница чата
+{% endblock %}
+
+{% block content %}
+    <h1 class="text-center">СТРАНИЦА ЧАТА</h1>
+    <div class="row">
+        <div class="chat-input-container col-md-12">
+            <div class="input-group mb-3">
+              <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Сообщение"
+                  id='chat-message-input'
+                  >
+              <button
+                  class="btn btn-primary"
+                  type="button"
+                  id="chat-message-send-button"
+              >
+                ОТПРАВИТЬ
+              </button>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid chat-container">
+        <div class="row">
+            <div class="col-md-12 chat-message-container">
+                <h2 class="text-md-start chat-message-parent">
+                    <div class="chat-author">
+                        Pingvin
+                    </div>
+                    <span class="chat-message">
+                        Привет
+                        <i class="badge chat-message-time">12:30</i>
+                    </span>
+                </h2>
+                <h2 class="text-md-end chat-message-parent">
+                    <span class="chat-message">
+                        Очень хорошо Как сам ?
+                        <i class="badge chat-message-time">12:30</i>
+                    </span>
+                </h2>
+            </div>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,23 @@
+
+<form method="GET" action="/todo-add">
+    <input
+            type="text"
+            name="todo_name"
+            placeholder="Название задачи"
+    >
+    <button>Добавить</button>
+</form>
+<ul>
+    {% for todo_one in todos %}
+        <li>
+            <form method="GET" action="/todo_delete">
+                <input
+                    type="hidden"
+                    name="todo_id"
+                    value="{{ todo_one.id }}"
+                >
+                {{ todo_one.todo_name }}
+                <button>x</button>
+        </li>
+    {% endfor %}
+</ul>

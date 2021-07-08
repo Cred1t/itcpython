@@ -1,3 +1,0 @@
-Toyota,1999
-Hyndai,2006
-Kia,2008
